@@ -7,5 +7,5 @@ Please also read the file WORKAROUNDS!
 # changelog
 
 ## 3.34.1
-add box-shadow for menu<br/>
-fix minor bug after added the menu shadow
+* add box-shadow for menu<br/>
+* fix minor bug after added the menu shadow
