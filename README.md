@@ -4,8 +4,8 @@ E17gtk is a dark GTK2/GTK3 theme with sharp corners, which is designed for use i
 
 Please also read the file WORKAROUNDS!
 
-changelog
+# changelog
 
-+ 3.34.1
+## 3.34.1
 add box-shadow for menu<br/>
 fix minor bug after added the menu shadow
