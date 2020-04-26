@@ -1625,7 +1625,9 @@ menuitem menu {
 
 menuitem,
 menuitem * {
-	padding: 2px 0px;
+	/* fix transparent space at the top and the bottom of submenu when shadow is added
+	 may be improved by precisely set "padding: 0" to submenu box only */
+	/*padding: 2px 0px;*/
 }
 
 /* scroll arrows */
@@ -2771,8 +2773,9 @@ decoration {
 tooltip.csd decoration,
 messagedialog.csd decoration
  {
-	border-radius: 0;
-	box-shadow: none;
+	/* no problem under gtk 3.24, disable for better experience */
+	/*border-radius: 0;
+	box-shadow: none;*/
 }
 
 /**********************
